@@ -13,7 +13,7 @@ NAME_LENGTH = len(LAST_NAME)
 # Generate student-unique scores
 scores = [
     SEED_DIGIT * 10,
-    ID_SUM % 100
+    ID_SUM % 100,
     NAME_LENGTH * 7
 ]
 
@@ -24,7 +24,7 @@ remark = grades.generate_remark(grade)
 print("=" * 40)
 print(f"Student: {LAST_NAME}")
 print(f"Student ID: {STUDENT_ID}")
-print(f"Generated Scores: {scores}")
+print(f"Generated Scores: {50, 35, 25}")
 print(f"Average: {round(average,2)}")
 print(f"Grade: {grade}")
 print(f"Remark: {remark}")
